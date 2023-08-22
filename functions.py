@@ -61,7 +61,7 @@ def AddAnimal(table):
         SaveAnimalsToXML(table)
         print(f"Added Animal Was Added, Name: {animalname}, Age: {animalage}, Nickname: {animalnickname}\n")
     else:
-        print(f"Error: Not Enough Arguments Wanted 4 Got Less")
+        print(f"Error: Not Enough Arguments Wanted 3 Got Less")
 
 def DeleteAnimal(table):
     animalname = input("Enter Animal Name [Example: Shark]: ")
